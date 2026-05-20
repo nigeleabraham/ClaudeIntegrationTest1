@@ -31,6 +31,7 @@ export default defineConfig(({ mode }) => {
   };
 
   return {
+    base: '/ClaudeIntegrationTest1/',
     plugins: [
       react(),
       {
