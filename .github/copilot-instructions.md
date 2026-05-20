@@ -1,0 +1,3 @@
+- Scaffold a React + TypeScript application using Vite.
+- Confirm the project builds successfully with `npm run build`.
+- Provide start instructions.
