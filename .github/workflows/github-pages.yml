@@ -25,6 +25,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          VITE_BASE_PATH: /ClaudeIntegrationTest1/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
